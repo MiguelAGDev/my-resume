@@ -1,0 +1,106 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+% Definicion del azul profesional (solo para acentos)
+\definecolor{cvblue}{RGB}{30, 110, 170}
+% Configuracion de vinetas elegantes
+\setlist[itemize]{leftmargin=*, itemsep=2pt, topsep=2pt, parsep=0pt, label=\raisebox{0.25ex}{\tiny$\bullet$}, font=\small}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.3in}
+\raggedright
+\raggedbottom
+\renewcommand{\baselinestretch}{0.96}
+\setlength{\tabcolsep}{0in}
+% Formato de secciones: Titulo y linea en azul, texto de cuerpo en negro
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large\color{cvblue}
+}{}{0em}{}[\color{cvblue}\titlerule \vspace{-6pt}]
+\begin{document}
+%----------HEADER----------
+\begin{center}
+    {\huge \scshape Miguel Angel \textbf{Avila Garcia}} \\[4pt]
+    \small
+    \color{cvblue}\faPhone \ \color{black}+52 871 325 0442 $|$
+    \color{cvblue}\faEnvelope \ \color{black}\href{mailto:miguelangel.dev@hotmail.com}{miguelangel.dev@hotmail.com} $|$
+    \color{cvblue}\faLinkedin \ \color{black}\href{https://linkedin.com/in/miguelag-dev}{miguelag-dev} $|$
+    \color{cvblue}\faGithub \ \color{black}\href{https://github.com/MiguelAGDev}{MiguelAGDev}
+\end{center}
+\vspace{-10pt}
+%----------EDUCATION----------
+\section{\textbf{Education}}
+\textbf{Instituto Tecnologico de La Laguna} \hfill \color{cvblue}Torreon, Mexico \color{black} \\
+\textit{\color{cvblue}Bachelor of Science in Computer Systems - GPA: 89.70/100 }  \hfill Aug 2023 -- Dec 2027\\
+%----------WORK EXPERIENCE----------
+\section{\textbf{Work Experience}}
+\textbf{John Deere} \hfill \color{cvblue}Torreon, Mexico \color{black} \\
+\textit{\color{cvblue}Software Engineer Intern} \hfill Jun 2026 -- Present\\
+\begin{itemize}
+    \item Shipped support for \textbf{8} languages on the TMS Web Viewer (React, Node.js), from spike to production.
+    \item Built \textbf{3} features, fixed \textbf{5} recurring defects, and resolved \textbf{4} production incidents on the TMS Web Viewer.
+    \item Instrumented New Relic coverage in \textbf{3} repos (C\#, PowerShell, Next.js) with unit, cluster, and location tags.
+    \item Automated obsolete-file cleanup on production servers via Windows Task Scheduler, validated on \textbf{1} unit first.
+  
+\end{itemize}
+%----------PROJECTS----------
+\section{\textbf{Projects}}
+\textbf{\href{https://devpost.com/software/inventario-inteligente-noobs404}{Inventario Inteligente} -- Real-Time Inventory Service for Repair Shops} \hfill Oct 2026 \\
+\textit{\color{cvblue}Python, FastAPI, PostgreSQL, Redpanda (Kafka), Docker}
+\begin{itemize}
+    \item Owned the backend for part reservations, shortages, and restocks, passing \textbf{50/50} official contract tests.
+    \item Engineered a Kafka consumer turning \textbf{12} event types into an immutable ledger over \textbf{17} PostgreSQL tables.
+    \item Prevented double-allocation with per-part locks; published \textbf{8} stock event types via a transactional outbox.
+\end{itemize}
+\vspace{3pt}
+\textbf{\href{https://github.com/MiguelAGDev/clickwork}{Clickwork} -- Full-Stack Internship \& Residency Management Platform} \hfill Apr 2026 -- Present \\
+\textit{\color{cvblue}Node.js, Express, React 19, TypeScript, MySQL 8, Tailwind CSS, Git}
+\begin{itemize}
+    \item Rebuilt \textbf{\href{https://github.com/MiguelAGDev/vinculatec}{VinculaTEC}}, a legacy PHP/Oracle system, into a modern full-stack, layered architecture.
+    \item Exposed \textbf{29} REST endpoints across \textbf{7} domains, backed by a \textbf{6}-model MySQL schema.
+    \item Redesigned RBAC for \textbf{5} roles across \textbf{10+} workflows.
+    \item Automated API regression tests across \textbf{6} domains (Postman/Newman), eliminating manual pre-deploy checks.
+
+\end{itemize}
+\vspace{3pt}
+\textbf{\href{https://github.com/MiguelAGDev/capital-one}{Capital PyMe} -- Cash-Flow Forecasting Platform for SMBs} \textit{\href{https://hackmty.com/}{(HackMTY 2026)}}\hfill Sep 2026 \\
+\textit{\color{cvblue}Python, FastAPI, React 19, scikit-learn, LightGBM, statsmodels}
+\begin{itemize}
+    \item Built a hybrid LightGBM + macro-indexed forecasting engine, cutting error to \textbf{9.75\%} vs. \textbf{14.15\%} baseline.
+    \item Designed a decoupled 3-repo architecture exposing \textbf{4} REST endpoints with server-side chart generation.
+    \item Validated forecasts via Ljung-Box testing and \textbf{1,000}-iteration Monte Carlo simulation.
+\end{itemize}
+%----------TEACHING EXPERIENCE----------
+\section{\textbf{Teaching Experience}}
+\textbf{Workshop Instructor -- Data Structures \& Oracle Database} \hfill Aug 2025 -- May 2026 \\
+\textit{Instituto Tecnologico de La Laguna}
+\begin{itemize}
+    \item Designed and led a \textbf{14}-week Java \textbf{data structures} workshop for \textbf{8} students on algorithm complexity.
+    \item Taught \textbf{24+} \textbf{Oracle Database} sessions to \textbf{10} students on SQL, joins, subqueries, and PL/SQL.
+\end{itemize}
+%----------HONORS & AWARDS----------
+\section{\textbf{Honors \& Awards}}
+\textbf{\href{https://devpost.com/software/inventario-inteligente-noobs404}{Winner -- ROCEEL Industry Challenge}} \hfill Oct 2026 \\
+\textit{Hackathon TecNM Campus Saltillo ``Road To Tech''}
+\begin{itemize}
+    \item Won as backend lead of a \textbf{5}-person team; now presenting the system to ROCEEL for potential adoption.
+\end{itemize}
+%----------TECHNICAL SKILLS----------
+\section{\textbf{Technical Skills}}
+\begin{itemize}
+  \item \textbf{Programming Languages:} C++, Java, SQL, JavaScript, TypeScript, Python, PHP.
+  \item \textbf{Frameworks \& Libraries:} Node.js, Express, React 19, Next.js, Tailwind CSS, FastAPI, scikit-learn.
+   \item \textbf{Databases:} Oracle SQL, MySQL 8, MariaDB.
+    \item \textbf{Tools \& OS:} Git, GitHub, Linux, VS Code, Oracle SQL Developer, New Relic, Jira.
+    \item \textbf{Spoken Languages:} Spanish (Native), English (B2).
+\end{itemize}
+\end{document}
