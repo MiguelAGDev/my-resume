@@ -10,3 +10,42 @@
 *.blg
 
 examples/
+
+# More LaTeX build artifacts
+*.fdb_latexmk
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.idx
+*.ilg
+*.ind
+*.glo
+*.gls
+*.xdv
+*.run.xml
+*-blx.bib
+*.synctex
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.eslintcache
+*.tsbuildinfo
+dist/
+build/
+coverage/
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,20 @@
+{
+  "name": "resume-ats-check",
+  "version": "1.0.0",
+  "description": "Local ATS check for the resume PDF (pdf-parse + @pranavraut033/ats-checker)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "node check.mjs",
+    "check:text": "node check.mjs --text"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@pranavraut033/ats-checker": "^2.0.0",
+    "pdf-parse": "^2.4.5"
+  },
+  "private": "true"
+}

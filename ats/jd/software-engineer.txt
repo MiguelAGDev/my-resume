@@ -1,0 +1,18 @@
+Software Engineer Intern
+
+We are looking for a software engineer intern to build and maintain web applications and backend services.
+
+Requirements:
+- Currently pursuing a Bachelor's degree in Computer Science or a related field
+- Proficiency in at least one of: JavaScript, TypeScript, Python, Java, C#
+- Experience with REST APIs and backend frameworks such as Node.js, Express, NestJS, or .NET
+- Experience with relational databases and SQL (MySQL, PostgreSQL, Oracle)
+- Familiarity with Git, GitHub, and code review through pull requests
+- Understanding of data structures and algorithms
+
+Preferred:
+- Experience with React and modern frontend tooling
+- Experience with Docker and CI/CD
+- Familiarity with monitoring and observability tools such as New Relic
+- Experience with automated testing and API testing (Postman)
+- Exposure to Linux, event-driven architecture, or message queues such as Kafka
