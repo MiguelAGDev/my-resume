@@ -1,0 +1,17 @@
+Software Engineering Intern
+
+Composite of typical internship requirements from Google, Meta and Deere entry-level postings.
+
+Minimum qualifications:
+- Currently enrolled in a Bachelor's or Master's degree program in Computer Science or a related technical field
+- Experience with data structures, algorithms, and software design
+- Experience in at least one programming language such as Python, Java, C++, JavaScript, or C#
+- Familiarity with object-oriented programming and version control (Git)
+- Experience working in Unix/Linux environments
+
+Preferred qualifications:
+- Previous internship, work experience, personal projects, open source, or coding competition experience
+- Experience with SQL and relational databases
+- Experience building or consuming REST APIs
+- Experience with automated testing and CI/CD
+- Ability to collaborate in an Agile team and communicate clearly
